@@ -45,7 +45,7 @@ async function doLogin(username, password) {
         }
 
         if (json.error) {
-            displayMessage("warning", " you username or password is invalid", ".message-container");
+            displayMessage("warning", " your username or password is invalid", ".message-container");
         }
 
         console.log(json);
